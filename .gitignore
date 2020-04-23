@@ -151,7 +151,7 @@ acs-*.bib
 # endnotes
 *.ent
 
-# fixme
+# fixme_
 *.lox
 
 # feynmf/feynmp
@@ -290,7 +290,7 @@ pythontex-files-*/
 *.hst
 *.ver
 
-# easy-todo
+# easy-todo_
 *.lod
 
 # xcolor
