@@ -1,0 +1,7 @@
+content:
+- Strings
+- Booleans
+- Numbers - int and float
+- Sequences - lists and tuples
+- Sets
+- Dictionaries

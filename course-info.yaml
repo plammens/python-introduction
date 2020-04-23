@@ -7,4 +7,5 @@ summary: |-
 programming_language: Python
 environment: unittest
 content:
-  - Python as a programming language
+- Preliminaries
+- Fundamentals
