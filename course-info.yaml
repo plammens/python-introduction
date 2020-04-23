@@ -6,3 +6,5 @@ summary: |-
   by Paolo Lammens
 programming_language: Python
 environment: unittest
+content:
+  - Python as a programming language
