@@ -1,20 +1,11 @@
-This is a task description file. Its content will be displayed to a learner in the **Task Description** window.
+# Data vs procedures
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md** to **task.html**, or vice versa.
-The default task description format can be changed in **Preferences | Tools | Education**, but this will not affect any existing task description files.
+Broadly speaking, there are two type of components that take part in programs:
+ - Data; and
+ - Procedures (or routines, functions, methods, etc.)
 
-The following features are available in **task.md/task.html** which are specific to the EduTools plugin:
+By "data" we mean anything that stores information, and by "procedure" we mean an ordered list of
+well-defined instructions that can be executed repeatedly.
 
-- Hints can be added anywhere in the task text. Type "hint" and press Tab. <div class="hint">Text of your hint</div>
+In the following task we will see Python's approach to data.
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere on the **Editor** tab and choose the **Insert shortcut** option from the context menu.
-For example: &shortcut:FileStructurePopup;.
-
-- Insert the &percnt;`IDE_NAME`&percnt; macro, which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
-
-- Insert PSI elements, by using links like `<a href="psi_element://link.to.element">element description</a>`.
-To get such a link, right-click the class or method and select **Copy Reference**. Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a <a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.
