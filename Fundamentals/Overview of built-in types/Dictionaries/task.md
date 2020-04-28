@@ -8,14 +8,10 @@ English dictionary: the keys would be the word entries, and the values would be 
 corresponding definitions.
 The type object for dictionaries is `dict`.
 
-You can write a string using a comma-separated list within curly brackets:
+You can write a string using a comma-separated list of `<key>: <value>` pairs
+(notice the colon) within curly brackets:
 ```python
-{1, "spam", 3}
-```
-
-Sets don't contain duplicates, so the following set is equivalent to the one above:
-```python
-{1, 1, "spam", 3}
+{"Bob": 'A', "Alice": 'B'}
 ```
 
 
