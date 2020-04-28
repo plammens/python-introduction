@@ -1,20 +1,18 @@
-This is a task description file. Its content will be displayed to a learner in the **Task Description** window.
+# Sets
+**Official docs:** [Set types <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset) 
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md** to **task.html**, or vice versa.
-The default task description format can be changed in **Preferences | Tools | Education**, but this will not affect any existing task description files.
+Sets are unordered collections of unique items.
+The type object for sets is `set`.
 
-The following features are available in **task.md/task.html** which are specific to the EduTools plugin:
+You can write a set using a comma-separated list within curly brackets:
+```python
+{1, "spam", 3}
+```
 
-- Hints can be added anywhere in the task text. Type "hint" and press Tab. <div class="hint">Text of your hint</div>
+Sets don't contain duplicates, so the following set is equivalent to the one above:
+```python
+{1, 1, "spam", 3}
+```
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere on the **Editor** tab and choose the **Insert shortcut** option from the context menu.
-For example: &shortcut:FileStructurePopup;.
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro, which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
 
-- Insert PSI elements, by using links like `<a href="psi_element://link.to.element">element description</a>`.
-To get such a link, right-click the class or method and select **Copy Reference**. Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a <a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.
