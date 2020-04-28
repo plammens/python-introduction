@@ -498,3 +498,5 @@ cython_debug/
 .coursecreator
 .idea/.gitignore
 .idea/VirtualEnvironment
+
+*remote-info*
