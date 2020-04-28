@@ -1,20 +1,79 @@
-This is a task description file. Its content will be displayed to a learner in the **Task Description** window.
+# Python's data model: objects
+**Relevant official docs:** [Data model <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/datamodel.html)  
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md** to **task.html**, or vice versa.
-The default task description format can be changed in **Preferences | Tools | Education**, but this will not affect any existing task description files.
+Programs need to manipulate data. Python represents data in the form of objects.
+Everything in Python is an object.
 
-The following features are available in **task.md/task.html** which are specific to the EduTools plugin:
+What is an object? Quoted from the [official documentation <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/datamodel.html#objects-values-and-types):
+> Objects are Python’s abstraction for data. All data in a Python program is represented by
+> objects or by relations between objects. Every object has an identity, a type and a value.
+>
+> An object’s identity never changes once it has been created.
+>
+> An object’s type determines the operations that the object supports (e.g., “does it have a
+> length?”) and also defines the possible values for objects of that type.
+>
+> The value of some objects can change.
 
-- Hints can be added anywhere in the task text. Type "hint" and press Tab. <div class="hint">Text of your hint</div>
+As an example, suppose you want to think of a specific car as an object. Its **type** would be
+the abstract concept of "car", which defines what cars are like and what attributes they have, e.g.
+colour, number of seats, make, model, etc. Its **value** would be comprised of all of the values of
+its attributes: e.g. colour='red', number of seats=5, make=Volkswagen, model=Polo, etc.
+Finally, its **identity** would be the individual, unique exemplar. While there could be other cars
+with the same value (i.e. of the same model, colour, etc.), they would be separate instances, so
+their identities would be different.
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere on the **Editor** tab and choose the **Insert shortcut** option from the context menu.
-For example: &shortcut:FileStructurePopup;.
+The value of this car could change, for example, if it gets repainted in another colour.
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro, which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
 
-- Insert PSI elements, by using links like `<a href="psi_element://link.to.element">element description</a>`.
-To get such a link, right-click the class or method and select **Copy Reference**. Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a <a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.
+## Value
+
+The value of an object is the information that it "contains"; it is made up of the attributes of
+the object. In our example, "color=red" would be part of the car's value.
+
+### Comparing the value of objects
+
+The value of two objects can be compared with the equality comparison (`==`):
+```python
+a == b  # "is a equal to b?"
+```
+Note the double equals sign—not to be confused with variable assignment, which is one equals sign!
+To check the opposite, i.e. whether two objects are *not* equal in value, we use `!=`:
+```python
+a != b  # "is a different to b?"
+```
+
+## Identity
+
+The identity of an object is an abstract concept that makes us able to distinguish distinct
+objects. Each individual object has a different identity (even if their value is 
+equal to that of some other object). 
+
+### Comparing the identity of objects
+
+We can check whether two objects have equal or different identities (i.e. whether they're exact
+same instance) with the `is` and `is not` operators respectively:
+```python
+a is b  # "are a and b the same object?"
+a is not b  # "are a and b different objects?"
+```
+
+## Type
+
+The type of an object is a "blueprint" that defines the attributes of objects of this kind
+and the operations you can perform on them.
+
+You can get the type of an object by using the [`type` function <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/library/functions.html#type):
+
+```python
+type(<object>)
+```
+where `<object>` is an expression for any object.
+
+
+## Task
+
+Look at the file in the editor. It showcases comparisons of value and identity, as well
+as usage of the `type` function.
+
+
