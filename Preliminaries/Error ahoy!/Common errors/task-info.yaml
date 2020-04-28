@@ -1,0 +1,12 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 30
+    length: 1
+    placeholder_text: '"2"'
+- name: __init__.py
+  visible: false
+- name: static/highlighting.png
+  visible: true
