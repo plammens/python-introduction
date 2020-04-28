@@ -1,5 +1,8 @@
 # Python files
 
+**Related official docs**: 
+[Top-level components <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/toplevel_components.html)
+
 Python programs are written in text files with the extension `.py`, e.g. `hello_world.py`.
 Each line or group or lines contains a *statement*, an instruction that the interpreter 
 executes. (More on statements later; for now just think of a statement as a "command".)

@@ -1,4 +1,6 @@
 # Python's interactive console
+**Related official docs**: 
+[Top-level components <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/toplevel_components.html)
 
 Python is an interpreted language, so when we run a Python file the interpreter is executing the
 instructions "line-by-line". This has a great advantage: we can use the interpreter to run single

@@ -1,4 +1,5 @@
 # Hello, Python here
+**Related official docs**: [The `print` function <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/library/functions.html#print)
 
 Often, when you're writing a program, you want it to produce some kind of output when you run it;
 maybe it's the result of a computation, or a status message that indicates what's going on, or

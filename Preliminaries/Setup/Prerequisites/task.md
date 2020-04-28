@@ -12,3 +12,10 @@ Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AM
 ```
 
 Your current IDE is `%IDE_NAME%`.
+
+# Links
+
+Throughout this course, there will be links to external resources, indicated as follows:
+ - [Wikipedia <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/)
+ - [Official Python 3 documentation <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/)
+
