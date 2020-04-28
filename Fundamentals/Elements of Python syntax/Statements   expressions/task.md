@@ -1,20 +1,33 @@
-This is a task description file. Its content will be displayed to a learner in the **Task Description** window.
+# Statements and expressions
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md** to **task.html**, or vice versa.
-The default task description format can be changed in **Preferences | Tools | Education**, but this will not affect any existing task description files.
+The fundamental building blocks of Python source files are statements and expressions.
 
-The following features are available in **task.md/task.html** which are specific to the EduTools plugin:
+Python's unit of execution are code blocks. For example, a Python source file is considered as a
+single code block. Code blocks are sequences of statements.
 
-- Hints can be added anywhere in the task text. Type "hint" and press Tab. <div class="hint">Text of your hint</div>
+A statement is an atomic "command" that the Python interpreter executes. These are what makes up
+a Python program (which is written as a sequence of statements) Statements always take up one
+(for simple statements) or more (for compound statements) full (logical) lines (with one
+exception).
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere on the **Editor** tab and choose the **Insert shortcut** option from the context menu.
-For example: &shortcut:FileStructurePopup;.
+An expression is a piece of code from which a value can be computed. Expressions can appear 
+anywhere
+within a statement (as allowed by the Python syntax) and can be nested in another expression. An
+expression is evaluated every time it is "encountered" by the interpreter.
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro, which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
+You can think of statements as being "executed" and expressions as being "evaluated".
 
-- Insert PSI elements, by using links like `<a href="psi_element://link.to.element">element description</a>`.
-To get such a link, right-click the class or method and select **Copy Reference**. Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a <a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.
+Relevant docs:
+ - [Glossary entry for "statement" <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/glossary.html#term-statement)
+ - [Glossary entry for "expression" <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/glossary.html#term-expression)
+ - [Execution model (code blocks) <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/executionmodel.html#structure-of-a-program)
+ - [Line structure (logical vs physical) <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/lexical_analysis.html#line-structure)
+ - [Expressions <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/expressions.html)
+ - [Simple statements <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/simple_stmts.html)
+ - [Compound statements <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/compound_stmts.html)
+
+
+## Task
+
+The `main.py` file open in the editor contains some examples of statements and expressions.
+Take a look and see if you understand the difference between the two! 
