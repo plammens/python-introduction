@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Programming languages primarily allow computers to communicate between each
+      other
+    is_correct: false
+  - text: |
+      Programming languages provide a way for humans to write programs, i.e. sequences of
+      instructions to be executed by a computer
+    is_correct: true
+  - text: The semantics of a programming language defines how to write valid programs
+      in that language
+    is_correct: false
+  - text: The syntax of a programming language defines how to write valid programs in
+      that language
+    is_correct: true
+  - text: Programs written in text-based programming languages can be executed directly by the computer without any intermediate steps
+    is_correct: false
+message_correct: Correct!
+message_incorrect: Incorrect solution
+files:
+  - name: __init__.py
+    visible: false

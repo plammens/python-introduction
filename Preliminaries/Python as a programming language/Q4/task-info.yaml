@@ -1,0 +1,12 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Using the interactive console
+  is_correct: true
+- text: Writing a Python file for each computation
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: While it would certainly be possible to do that, being able to chain, amend and make computations at will in the interactive console makes it more convenient
+files:
+- name: __init__.py
+  visible: false

@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: >
+      "Compiled" and "interpreted" are two words for the same thing
+    is_correct: false
+  - text: >
+      With compiled languages, a program called compiler executes a program line by line while
+      reading it
+    is_correct: false
+  - text: |
+      With interpreted languages, a program called interpreter executes a program line by line while
+      reading it
+    is_correct: true
+  - text: |
+      With interpreted languages, to run a program text, a program called interpreter is run first
+      to translate the program to machine code, which can then be executed directly by the computer
+    is_correct: false
+  - text: |
+      If you have a program written in an interpeted language, you can run it in one step
+    is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+  - name: __init__.py
+    visible: false

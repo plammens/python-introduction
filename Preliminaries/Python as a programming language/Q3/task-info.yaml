@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: run program.py --language=python
+    is_correct: false
+  - text: python program.py
+    is_correct: true
+  - text: program.py
+    is_correct: false
+  - text: Python run "program"
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+  - name: __init__.py
+    visible: false
