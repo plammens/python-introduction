@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <tt>list</tt>
+    is_correct: true
+  - text: <tt>set</tt>
+    is_correct: false
+  - text: <tt>dict</tt>
+    is_correct: false
+  - text: <tt>str</tt>
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
