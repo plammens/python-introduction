@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <tt>laptopA == laptopB</tt>
+    is_correct: true
+  - text: <tt>laptopA is laptopB</tt>
+    is_correct: false
+  - text: <tt>type(laptopA) is type(laptopB)</tt>
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
