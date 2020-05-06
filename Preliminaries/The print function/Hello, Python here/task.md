@@ -22,6 +22,8 @@ function as follows:
 print(<something>)
 ``` 
 Here `<something>` stands for whatever you want to print.
+This will print whatever `<something>` is to the terminal on its own line.
+Calling `print` again will output text on a new line
 
 Here's an example of how you would print the text `Hello, world!` to the terminal:
 ```python
