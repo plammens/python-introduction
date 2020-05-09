@@ -1,3 +1,8 @@
 content:
+- Intro
 - String literals
 - Special characters
+- Concatenation
+- Length   indexing
+- String comparisons
+- Conversion to string
