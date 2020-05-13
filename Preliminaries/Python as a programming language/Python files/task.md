@@ -12,7 +12,7 @@ Depending on the context, Python files (files ending in `.py`) are also called *
 
 ## Running a Python file from the terminal
 
-To run a program written in such a file, we can invoke the Python interpreter from the 
+To run a program written in a Python file, we can invoke the Python interpreter from the 
 terminal and give it the file path as an argument:
 ```bash
 python main.py
@@ -21,7 +21,7 @@ This will run the `main.py` program in the terminal.
 
 ### Try it!
 
-Open the terminal window (in %IDE_NAME%, you can open the integrated terminal with 
+Open the integrated terminal window (with 
 <kbd>&shortcut:ActivateTerminalToolWindow;</kbd> or by clicking on the Terminal icon in the
 toolbar at the bottom) and type
 ```bash

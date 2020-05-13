@@ -1,13 +1,7 @@
 # The Python interpreter
 
 Since Python is an interpreted language, to run programs written in Python we must invoke the
-Python interpreter, giving it the file where we wrote the program as input. For example, in the
-terminal we would run the command
-```bash
-python myprogram.py
-```
-where `myprogram.py` is the name of the file in which we have written our program. This executes
-the program line by line.
+Python interpreter, giving it the file where we wrote the program as input.
 
 We will be using version 3.8+ of the Python language.
 
@@ -23,6 +17,8 @@ The standard implementation of the Python language is
 
 
 -------------------------
+
+Before going to the details of how to run the Python interpreter, we will first get to know a tool that we'll need for this (and for many other tasks in any programming or advanced computer usage): the terminal.
 
 **Click <kbd>Next</kbd> to go to the next task** (there's nothing to be run here)
 
