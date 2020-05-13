@@ -8,4 +8,5 @@
 # by all characters from the second string
 print("eggs" + "spam")
 
-
+name = "Bob"  # try modifying this
+print("My name is " + name)

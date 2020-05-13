@@ -29,12 +29,17 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ### Running some code
 
-To run code in the interactive console, you must type your line of code after the `>>>` and
+In the interactive console, the prompt is indicated by `>>>`. To run code in the interactive console, you must type your line of code after the `>>>` and
 press <kbd>Enter</kbd>.
 
 Try running some of the following lines! To illustrate, for the first example, type 
 `print("Hello, world!")`) after the `>>>` so that it looks like this:
-`>>> print("Hello, world!")`, and press <kbd>Enter</kbd>.
+```text
+>>> print("Hello, world!")
+```
+and press <kbd>Enter</kbd>.
+
+#### Sample lines of code to run
 
 ```python
 print("Hello, world!")
@@ -153,3 +158,24 @@ As a good thinking exercise, try running the whole file using the <kbd>Run</kbd>
 button below as well, and compare the difference in output between that and running the
 whole file line by line in the interactive console. Could you think of the reason for those
 differences?
+
+
+## Note on notation
+
+Throughout this course, we will be illustrating examples on the interactive console. We will use the following notation
+```text
+>>> <command>
+<output>
+```
+where `<command>` stands for the line of code being shown and `<output>` is its output when executed in the interactive console.
+
+This notation can be "stacked":
+```text
+>>> <command 1>
+<output 1>
+>>> <command 2>
+>>> <command 3>
+<output 3>
+```
+meaning that the lines shown are executed one after the other in the same session.
+
