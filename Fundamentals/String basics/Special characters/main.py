@@ -2,7 +2,6 @@
 
 # special characters are indicated with a backslash
 "\n"  # newline -- to end the current line and create another one
-"\t"  # tab
 "first line\nthis is on another line"
 
 # quotes in strings:
@@ -12,4 +11,5 @@
 'She said "Hello, I\'m Alice"'  # single quote (/apostrophe) in single-quote -enclosed string
 "Bob says \"don't do that!\""  # double quotes in double-quote -enclosed string
 
-
+# a literal backslash
+"This is a backslash: \\"
