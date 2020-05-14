@@ -2,7 +2,11 @@ content:
 - Intro
 - String literals
 - Special characters
+- Q1
+- Q2
 - Concatenation
 - Length   indexing
+- Q3
 - String comparisons
+- Q4
 - Conversion to string

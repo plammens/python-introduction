@@ -2,6 +2,10 @@ type: edu
 files:
 - name: task.py
   visible: true
+  placeholders:
+  - offset: 80
+    length: 53
+    placeholder_text: 2 + 0.00001 == 2.00001
 - name: tests/test_task.py
   visible: false
 - name: __init__.py

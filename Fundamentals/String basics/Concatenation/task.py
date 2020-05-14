@@ -1,12 +1,7 @@
 # ----- concatenation -----
 
-# two strings can be chained together with the + operator:
-"hello " + "world"
-"foo" + "bar" + "baz"
+name = "Bob"  # modify this
+age = "42"  # modify this
 
-# the result is a string that contains all characters from the first string immediately followed
-# by all characters from the second string
-print("eggs" + "spam")
-
-name = "Bob"  # try modifying this
-print("My name is " + name)
+# substitute <name> with the contents of name and age (using the variables!)
+print("My name is " + name + " and I'm " + age + " years old")

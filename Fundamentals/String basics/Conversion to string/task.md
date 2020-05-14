@@ -20,3 +20,11 @@ For example:
 >>> str({1, 2, 3})
 '{1, 2, 3}'
 ```
+
+
+## Task
+
+Look at `task.py`.
+You want to print that `2 + 0.00001 == 2.00001` *as text*. Currently though, this is written as-is in the `print` call, which causes Python to evaluate the comparison and return `True`, which is what gets printed!
+
+Use `str` on the numbers along with string concatenation with '+' to print the comparison as text (and not its value, i.e. `True`).

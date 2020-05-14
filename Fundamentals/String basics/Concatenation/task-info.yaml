@@ -2,6 +2,16 @@ type: edu
 files:
 - name: task.py
   visible: true
+  placeholders:
+  - offset: 37
+    length: 3
+    placeholder_text: ""
+  - offset: 64
+    length: 2
+    placeholder_text: ""
+  - offset: 167
+    length: 55
+    placeholder_text: '"My name is <name> and I''m <age> years old"'
 - name: tests/test_task.py
   visible: false
 - name: __init__.py

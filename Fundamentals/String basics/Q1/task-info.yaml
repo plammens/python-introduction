@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: >
+      <pre style="display: inline">«a string»</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">"I\'m here"</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">'I'm here'</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">"""Multiline<br>string"""</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">"""Python<br>says "Hello!""""</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">"""Python\nsays "Hello!\""""</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">'a string'</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">'\'</pre>
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution. Review the previous two panes!
+files:
+  - name: __init__.py
+    visible: false

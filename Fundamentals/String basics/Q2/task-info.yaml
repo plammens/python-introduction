@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: |
+      <pre>
+      \n\
+
+      \
+      </pre>
+    is_correct: false
+  - text: |
+      <pre>
+      \
+      \
+
+      \
+      </pre>
+    is_correct: true
+  - text: |
+      <pre>
+      \
+      \
+      \
+      </pre>
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution. Review the previous two panes!
+files:
+  - name: __init__.py
+    visible: false

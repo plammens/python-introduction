@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: >
+      <pre style="display: inline">len("")</pre> returns <pre style="display: inline">0</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">len("\n")</pre> returns <pre style="display: inline">2</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">'abc'[3]</pre> returns <pre style="display: inline">'c'</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">'def'[0]</pre> returns <pre style="display: inline">'d'</pre>
+    is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+  - name: __init__.py
+    visible: false
