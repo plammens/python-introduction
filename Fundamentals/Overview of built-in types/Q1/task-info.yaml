@@ -1,13 +1,17 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: <tt>str</tt>
+  - text: >
+      <pre style="display: inline">str</pre>
     is_correct: false
-  - text: <tt>bool</tt>
+  - text: >
+      <pre style="display: inline">bool</pre>
     is_correct: true
-  - text: <tt>int</tt>
+  - text: >
+      <pre style="display: inline">int</pre>
     is_correct: false
-  - text: <tt>None</tt>
+  - text: >
+      <pre style="display: inline">None</pre>
     is_correct: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution

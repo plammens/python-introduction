@@ -1,21 +1,26 @@
 type: choice
 is_multiple_choice: true
 options:
-  - text: <tt>assert True</tt>
+  - text: >
+      <pre style="display: inline">assert True</pre>
     is_correct: false
-  - text: <tt>"spam" + "eggs"</tt>
+  - text: >
+      <pre style="display: inline">"spam" + "eggs"</pre>
     is_correct: true
-  - text: <tt>1 + 3*4</tt>
+  - text: >
+      <pre style="display: inline">1 + 3*4</pre>
     is_correct: true
-  - text: |
-      <pre>
+  - text: >
+      <pre style="display: inline-block">
       if True:
           print("yes")
       </pre>
     is_correct: false
-  - text: <tt>(3.1415)</tt>
+  - text: >
+      <pre style="display: inline">(3.1415)</pre>
     is_correct: true
-  - text: <tt>var = "this"</tt>
+  - text: >
+      <pre style="display: inline">var = "this"</pre>
     is_correct: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution

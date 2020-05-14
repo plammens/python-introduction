@@ -1,13 +1,17 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: run program.py --language=python
+  - text: >
+      <pre style="display: inline">run program.py --language=python</pre>
     is_correct: false
-  - text: python program.py
+  - text: >
+      <pre style="display: inline">python program.py</pre>
     is_correct: true
-  - text: program.py
+  - text: >
+      <pre style="display: inline">program.py</pre>
     is_correct: false
-  - text: Python run "program"
+  - text: >
+      <pre style="display: inline">Python run "program"</pre>
     is_correct: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution

@@ -1,13 +1,17 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: <tt>list</tt>
+  - text: >
+      <pre style="display: inline">list</pre>
     is_correct: true
-  - text: <tt>set</tt>
+  - text: >
+      <pre style="display: inline">set</pre>
     is_correct: false
-  - text: <tt>dict</tt>
+  - text: >
+      <pre style="display: inline">dict</pre>
     is_correct: false
-  - text: <tt>str</tt>
+  - text: >
+      <pre style="display: inline">str</pre>
     is_correct: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution

@@ -1,11 +1,14 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: <tt>laptopA == laptopB</tt>
+  - text: >
+      <pre style="display: inline">laptopA == laptopB</pre>
     is_correct: true
-  - text: <tt>laptopA is laptopB</tt>
+  - text: >
+      <pre style="display: inline">laptopA is laptopB</pre>
     is_correct: false
-  - text: <tt>type(laptopA) is type(laptopB)</tt>
+  - text: >
+      <pre style="display: inline">type(laptopA) is type(laptopB)</pre>
     is_correct: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
