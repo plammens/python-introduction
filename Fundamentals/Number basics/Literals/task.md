@@ -1,20 +1,68 @@
-This is a task description file. Its content will be displayed to a learner in the **Task Description** window.
+# Numbers: literals
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md** to **task.html**, or vice versa.
-The default task description format can be changed in **Preferences | Tools | Education**, but this will not affect any existing task description files.
+As with strings, we can use number literals to insert a fixed numeric value in Python code.
 
-The following features are available in **task.md/task.html** which are specific to the EduTools plugin:
+## Integer literals
 
-- Hints can be added anywhere in the task text. Type "hint" and press Tab. <div class="hint">Text of your hint</div>
+**Python docs:** [integer literals <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/lexical_analysis.html#integer-literals)
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere on the **Editor** tab and choose the **Insert shortcut** option from the context menu.
-For example: &shortcut:FileStructurePopup;.
+To write a number in base-10 (i.e. the numbers you see every day), we write a sequence of digits, with an optional negative sign preceding it. 
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro, which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
+```python
+42
+-1
+301
+```
 
-- Insert PSI elements, by using links like `<a href="psi_element://link.to.element">element description</a>`.
-To get such a link, right-click the class or method and select **Copy Reference**. Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a <a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.
+Note that you can't have any leading zeros in these literals (except for when representing the number `0`).
+
+```python
+0123  # wrong
+```
+
+You can optionally insert underscores between digits for grouping purposes (to improve readability).
+
+```python
+10_000_000
+```
+
+You can also write integers in [**b**inary <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/binary), [**o**ctal <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/octal) or [he**x**adecimal <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/hexadecimal) by using the `0b`, `0o` or `0x` prefix respectively. 
+
+```python
+# non- base-10:
+0b01101001  # binary
+0o0151  # octal
+0x6f  # hexadecimal
+```
+
+
+
+
+## Floating-point literals
+
+**Python docs:** [floating-point literals <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/lexical_analysis.html#floating-point-literals)
+
+The most basic form of float literal consists of a sequence of digits (the integer part), followed by a decimal dot followed by another sequence of digits (the fractional part).
+In this case leading zeros are allowed (though they're not really useful).
+You can use underscores to group digits here too.
+
+```python
+2.3
+08.001
+3.14_15_93  # same as 3.141593
+```
+
+If the number you're representing as a float happens to be a whole number, you can omit the fractional part.
+Similarly, if the number you're representing has integer part equal to zero, you can omit the integer part.
+
+```python
+4.  # same as 4.0
+.25  # same as 0.25
+```
+
+You can also write floats in [E-notation <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/Scientific_notation#E_notation), by writing the mantissa $m$ followed by the character `e` followed by the exponent $n$. This represents the number $m\cdot 10^{n}$. The exponent can be negative
+
+```python
+-1e-5  # same as -0.00001
+2.35e5  # same as 235_000.0 
+```
