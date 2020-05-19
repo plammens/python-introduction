@@ -32,6 +32,3 @@ class TestCase(unittest.TestCase):
                 break
         else:
             self.fail("No print call found")
-
-    def test_dummy(self):
-        self.assertFalse('b', 'message')

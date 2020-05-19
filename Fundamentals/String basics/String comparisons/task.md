@@ -1,5 +1,7 @@
 # Strings: comparisons
 
+Strings can be compared with each other using an [operator <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/operator_(computer_programming)) such as `==`. All of these comparisons are expressions whose value is a boolean: `True` or `False`.
+
 ## Equality
 
 Strings can be compared for equality as expected.

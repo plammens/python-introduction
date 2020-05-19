@@ -2,7 +2,7 @@
 
 **Relevant docs:** [`str` literals <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals)
 
-String values can be directly written in code by the use of a [literal <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/Literal_(computer_programming)) (a "literal" value written in the code).
+String values can be directly written in code by the use of a [literal <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/Literal_(computer_programming)) (a "literal" value written in the code). Literals are expressions.
 
 
 In Python, string literals are written by enclosing a sequence of characters in either single- or double-quotes:

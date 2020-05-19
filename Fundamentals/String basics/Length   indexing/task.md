@@ -2,6 +2,8 @@
 
 **Python docs:** [sequences <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/datamodel.html#index-14)
 
+Since strings are sequences of characters, they have a length and each character has an [index <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/Array_data_structure#Element_identifier_and_addressing_formulas) (a position in the sequence). 
+
 ## Length
 
 **Python docs:** [len <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/library/functions.html#len)
@@ -24,7 +26,7 @@ We can get the *i*-th character of a string (counting from 0) using subscript no
 ```python
 "hello"[0]  # returns 'h'
 ```
-The resulting value is a string of length 1.
+The value of such an expression is a string of length 1.
 
 ```text
 >>> "hello"[1]
