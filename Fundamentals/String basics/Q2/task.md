@@ -1,4 +1,4 @@
-# Question 2
+# String basics: Q2
 
 Without running anything, can you tell what the following code will print when run?
 

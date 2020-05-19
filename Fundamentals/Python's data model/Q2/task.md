@@ -1,4 +1,4 @@
-# Question 2
+# Python's data model: Q2
 
 Suppose you want to compare the laptops of two of your friends.
 One of your friends has `laptopA`, and the other has `laptopB`.
