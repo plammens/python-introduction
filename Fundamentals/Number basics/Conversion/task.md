@@ -1,20 +1,41 @@
-This is a task description file. Its content will be displayed to a learner in the **Task Description** window.
+# Numbers: conversion
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md** to **task.html**, or vice versa.
-The default task description format can be changed in **Preferences | Tools | Education**, but this will not affect any existing task description files.
+## Conversion between number types
 
-The following features are available in **task.md/task.html** which are specific to the EduTools plugin:
+`int`s can be converted to `float`s with the `float` function:
+```python
+float(12)  # 12.0
+```
+and viceversa with the `int` function (in which case the fractional part is discarded):
+```python
+int(12.9)  # 12
+```
 
-- Hints can be added anywhere in the task text. Type "hint" and press Tab. <div class="hint">Text of your hint</div>
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere on the **Editor** tab and choose the **Insert shortcut** option from the context menu.
-For example: &shortcut:FileStructurePopup;.
+## String to number
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro, which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
+Number objects can also be created, with the `int` or `float` function, from adequate number literals as strings:
+```python
+int('42')  # 42
+int('0b10101', base=2)  # 0b10101
+int('10101', base=2)  # 0b10101~~~~
+```
+```python
+float('15e2')  # 15e2
+float('-12.5')  # -12.5
+float.fromhex('0x1.1FA7E2p+22')  # from hex literal
+```
 
-- Insert PSI elements, by using links like `<a href="psi_element://link.to.element">element description</a>`.
-To get such a link, right-click the class or method and select **Copy Reference**. Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a <a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.
+This is useful, for instance when parsing text input from a user as a number.
+
+Leading and trailing spaces don't matter:
+```python
+int(' 42 ')  # 42
+```
+
+
+## Task
+
+Your goal is to print the result of `(num1 - num2)*3`. The problem is that someone stored the numbers in `num1` and `num2` as strings instead of `int`s or `float`s! 
+
+Use the appropriate conversion functions to convert `num1` and `num2` in the expression inside the print statement.

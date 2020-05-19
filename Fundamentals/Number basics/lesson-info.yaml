@@ -1,7 +1,9 @@
 content:
 - Intro
 - Literals
+- Q1
 - Arithmetic
-- Special float values
 - Comparisons
+- Q2
+- Special float values
 - Conversion

@@ -1,6 +1,7 @@
 # Numbers: literals
 
 As with strings, we can use number literals to insert a fixed numeric value in Python code.
+Literals are expressions.
 
 ## Integer literals
 

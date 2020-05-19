@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: >
+      <pre style="display: inline">100,000</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">100000</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">100_000</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">1e5</pre>
+    is_correct: false
+message_incorrect: Incorrect. Remember they have to be *integer* literals!
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
