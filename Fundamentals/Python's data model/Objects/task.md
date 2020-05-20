@@ -64,11 +64,24 @@ The type of an object is a "blueprint" that defines the attributes of objects of
 and the operations you can perform on them.
 
 You can get the type of an object by using the [`type` function <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/library/functions.html#type):
-
 ```python
 type(<object>)
 ```
-where `<object>` is an expression for any object.
+where `<object>` is an expression for any object. This is an expression that returns the *type object* of the given object `o`; that is, an object which represents the type of `o`. (We'll see examples of type objects soon.) 
+
+### Checking whether an object is of a certain type
+
+To check whether an object `o` has type `t`, you can use the [isinstance <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/library/functions.html#isinstance) function:
+```python
+isinstance(o, t)
+```
+This expression returns either `True` or `False` (a boolean; more on booleans later).
+
+Note that although using
+```python
+type(o) is t
+```
+to check whether `o` is of type `t` would work in some cases, in some other cases it would return `False` when we wouldn't want it to, for reasons we'll see later in the course. Thus for this purpose it's best to always use `isinstance`.
 
 
 ## Task

@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: >
+      <pre style="display: inline">type(vehicle) == Car</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">type(vehicle) is Car</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">isinstance(vehicle, Car)</pre>
+    is_correct: true
+message_correct: Indeed! the other options would work *in some cases*, but the third one is what we're looking for.
+message_incorrect: Tricky question. Pay close attention to the section titled "Type" in the article about objects!
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
