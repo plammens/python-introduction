@@ -1,4 +1,4 @@
-# boolean arithmetic
+ # boolean arithmetic
 
 # not - unary operation
 not False

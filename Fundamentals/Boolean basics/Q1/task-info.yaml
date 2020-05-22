@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: >
+      <pre style="display: inline">True and False or True</pre>
+    is_correct: false
+  - text: >
+      <pre style="display: inline">True or False and True</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">not True and not False or True</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">not (True and False) or True</pre>
+    is_correct: true
+  - text: >
+      <pre style="display: inline">not not not False and True</pre>
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false

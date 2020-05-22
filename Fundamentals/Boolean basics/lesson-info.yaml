@@ -1,5 +1,8 @@
 content:
 - Intro
 - Boolean arithmetic
+- Q1
 - The purpose of bools
-- Implicit conversion
+- Conversion
+- Short-circuiting
+- Q2

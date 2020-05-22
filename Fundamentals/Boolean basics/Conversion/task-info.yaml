@@ -3,26 +3,27 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 129
-    length: 63
+  - offset: 44
+    length: 5
     placeholder_text: '...'
-  - offset: 204
-    length: 84
+  - offset: 70
+    length: 4
     placeholder_text: '...'
-  - offset: 300
-    length: 25
+  - offset: 91
+    length: 5
     placeholder_text: '...'
-  - offset: 337
-    length: 19
+  - offset: 119
+    length: 5
     placeholder_text: '...'
-  - offset: 395
-    length: 63
-    placeholder_text: ""
+  - offset: 148
+    length: 5
+    placeholder_text: '...'
+  - offset: 167
+    length: 4
+    placeholder_text: '...'
 - name: tests/test_task.py
   visible: false
 - name: __init__.py
   visible: false
 - name: tests/__init__.py
-  visible: false
-- name: helper.py
   visible: false
