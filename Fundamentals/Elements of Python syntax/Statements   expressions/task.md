@@ -7,7 +7,7 @@ single code block. Code blocks are sequences of statements.
 
 A [**statement** <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/Statement_(computer_science)) is an atomic "command" that the Python interpreter executes. These are what makes up
 a Python program (which is written as a sequence of statements) Statements always take up one
-(for simple statements) or more (for compound statements) full lines.
+(for simple statements) or more (for *compound* statements) full lines.
 
 An [**expression** <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_wiki.png">](https://en.wikipedia.org/wiki/Expression_(computer_science)) is a piece of code from which a *value* can be computed. Expressions can appear 
 anywhere

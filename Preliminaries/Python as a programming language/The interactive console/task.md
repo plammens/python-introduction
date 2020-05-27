@@ -39,7 +39,7 @@ Try running some of the following lines! To illustrate, for the first example, t
 ```
 and press <kbd>Enter</kbd>.
 
-#### Sample lines of code to run
+#### Sample lines of code to run:
 
 ```python
 print("Hello, world!")
