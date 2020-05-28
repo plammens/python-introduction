@@ -1,9 +1,9 @@
 # Basic control flow: `if` statement
 
-**Python docs:** [if statement <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement)
+**Python docs:**  [if statement <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement)
 
 The `if` (or `if`-`else`) statement is the basic tool for modifying control flow based on a condition.
-It is a compound statement:
+It is a *compound* statement:
 
 ```python
 if <expr>:
@@ -20,10 +20,4 @@ If the condition is `True` (i.e. the expression evaluates to `True`), the first 
 Or else (and here's why it's named `else`), the second block gets executed.
 
 
-## Single-clause `if`
 
-If you want something to run only if a condition is true, and otherwise run nothing, you can omit the `else` clause. 
-```python
-if <expr>:
-    <block1>
-```
