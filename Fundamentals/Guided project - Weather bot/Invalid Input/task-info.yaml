@@ -1,0 +1,27 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 343
+    length: 30
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Select city
+      file: task.py
+      placeholder: 1
+      is_visible: false
+  - offset: 440
+    length: 16
+    placeholder_text: '...'
+  - offset: 462
+    length: 26
+    placeholder_text: '...'
+- name: __init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

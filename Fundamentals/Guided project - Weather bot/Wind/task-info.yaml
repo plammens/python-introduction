@@ -1,0 +1,127 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 343
+    length: 30
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 1
+      is_visible: false
+  - offset: 440
+    length: 16
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 2
+      is_visible: false
+  - offset: 462
+    length: 26
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 3
+      is_visible: false
+  - offset: 591
+    length: 9
+    placeholder_text: '...'
+  - offset: 674
+    length: 47
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 4
+      is_visible: false
+  - offset: 731
+    length: 55
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 5
+      is_visible: false
+  - offset: 799
+    length: 8
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 6
+      is_visible: false
+  - offset: 827
+    length: 21
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 7
+      is_visible: false
+  - offset: 863
+    length: 10
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 8
+      is_visible: false
+  - offset: 893
+    length: 57
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 9
+      is_visible: false
+  - offset: 965
+    length: 10
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 10
+      is_visible: false
+  - offset: 995
+    length: 21
+    placeholder_text: '...'
+    dependency:
+      section: Fundamentals
+      lesson: Guided project - Weather bot
+      task: Clothes
+      file: task.py
+      placeholder: 11
+      is_visible: false
+  - offset: 610
+    length: 45
+    placeholder_text: '...'
+- name: __init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
