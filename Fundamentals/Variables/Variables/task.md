@@ -13,21 +13,25 @@ Once we have defined a variable, every time we use its identifier in an expressi
 
 Valid [identifiers <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) in Python start with a letter (lowercase or uppercase) or an underscore, and are followed by arbitrarily many alphanumeric characters and underscores. Identifiers are case-sensitive.
 
+Identifiers can't be one of Python's [*keywords* <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/lexical_analysis.html?highlight=keyword#keywords) (words with special meaning in Python programs) such as `or`, `and`, `not`.
+
 ```python
 # valid identifiers
 var
-abc123
+Abc123
 _var
-Var
-__hello
-a_fancy_name_42
+VAR
+__hELlO
+a_FaNcY_name_42
 
 # invalid identifiers
 123abc
 a+bcd
 hell[o]
-a name with spaces
+class
+spaces not allowed
 ``` 
+
 
 
 
