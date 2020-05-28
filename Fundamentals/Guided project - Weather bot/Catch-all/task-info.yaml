@@ -51,7 +51,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 13
+      placeholder: 5
       is_visible: false
   - offset: 778
     length: 47
@@ -61,7 +61,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 5
+      placeholder: 6
       is_visible: false
   - offset: 835
     length: 55
@@ -71,7 +71,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 6
+      placeholder: 7
       is_visible: false
   - offset: 903
     length: 8
@@ -81,7 +81,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 7
+      placeholder: 8
       is_visible: false
   - offset: 931
     length: 21
@@ -91,7 +91,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 8
+      placeholder: 9
       is_visible: false
   - offset: 967
     length: 10
@@ -101,7 +101,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 9
+      placeholder: 10
       is_visible: false
   - offset: 997
     length: 57
@@ -111,7 +111,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 10
+      placeholder: 11
       is_visible: false
   - offset: 1069
     length: 10
@@ -121,7 +121,7 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 11
+      placeholder: 12
       is_visible: false
   - offset: 1099
     length: 21
@@ -131,14 +131,14 @@ files:
       lesson: Guided project - Weather bot
       task: Wind
       file: task.py
-      placeholder: 12
+      placeholder: 13
       is_visible: false
   - offset: 665
     length: 39
     placeholder_text: '...'
 - name: __init__.py
   visible: false
-- name: tests/test_task.py
-  visible: false
 - name: tests/__init__.py
+  visible: false
+- name: tests/test_task.py
   visible: false
