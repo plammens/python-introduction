@@ -12,7 +12,7 @@ Now, we want to do something about temperature.
 * If the temperature is *lower* than $5\\, º\mathrm{C} $, print `Wear a winter jacket!`.
 
 
-You'll have to do this in a single `if`-`else` statement! (Keep in mind that `elif` clauses are part of the same `if`-`else` statement.)
+You'll have to do this in a single `if`-`else` statement with exactly 3 clauses! (Keep in mind that `elif` clauses are part of the same `if`-`else` statement.)
 
 <div class="hint">
   Use a conditional expression inside the `print` call of one of the clauses.

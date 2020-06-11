@@ -1,4 +1,4 @@
-# Basic control flow: the conditional expression
+# Conditionals: the conditional expression
 
 **Python docs:** [conditional expression <img height="12" style="display: inline" src="https://raw.githubusercontent.com/webartifex/intro-to-python/master/static/link_to_py.png">](https://docs.python.org/3/reference/expressions.html#conditional-expressions)
 

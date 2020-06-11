@@ -1,4 +1,4 @@
-# Basic control flow: the `pass` statement
+# Conditionals: the `pass` statement
 
 In some cases you want nothing to happen when a piece of code is run.
 This is what the `pass` statement is for. This is a simple statement that basically tells Python: "do nothing".

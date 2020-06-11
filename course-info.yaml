@@ -8,4 +8,5 @@ programming_language: Python
 environment: unittest
 content:
 - Preliminaries
-- Fundamentals
+- Fundamentals I
+- Fundamentals II

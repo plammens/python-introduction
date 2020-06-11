@@ -1,4 +1,4 @@
-# Basic control flow: the `elif` clause
+# Conditionals: the `elif` clause
 
 If you want to select one of multiple paths of execution based on multiple conditions (instead of just one), you can use the `elif` clause.
 
