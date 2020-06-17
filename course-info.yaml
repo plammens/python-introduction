@@ -1,12 +1,12 @@
-title: Introduction to Python
+title: Python from Scratch
 language: English
 summary: |-
-  Introduction to Python without a programming experience prerequisite.
+  [WARNING: still in early development. Might not get completed. Feel free to take it if you want, but without any guarantees, and expect things to change.]
 
-  by Paolo Lammens
+  Introduction to Python 3.8+ without a prerequisite for programming experience.
 programming_language: Python
 environment: unittest
 content:
-- Preliminaries
-- Fundamentals I
-- Fundamentals II
+  - Preliminaries
+  - Fundamentals I
+  - Fundamentals II
