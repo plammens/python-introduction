@@ -1,20 +1,18 @@
-This is a task description file. Its content will be displayed to a learner in the **Task Description** window.
+# Loops: the `while` loop
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md** to **task.html**, or vice versa.
-The default task description format can be changed in **Preferences | Tools | Education**, but this will not affect any existing task description files.
 
-The following features are available in **task.md/task.html** which are specific to the EduTools plugin:
+The while loop executes a block of code *while* a condition is true. That is, it executes the block repeatedly until the condition becomes false.
 
-- Hints can be added anywhere in the task text. Type "hint" and press Tab. <div class="hint">Text of your hint</div>
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere on the **Editor** tab and choose the **Insert shortcut** option from the context menu.
-For example: &shortcut:FileStructurePopup;.
+The syntax for a while loop in Python is
+```python
+while <condition>:
+    <stmt_1>
+    <stmt_2>
+    ...
+    <stmt_n>
+```
+where `<condition>` is an expression that will be interpreted as a boolean (see Truth Value Testing), and `<stmt_1>` through `<stmt_n>` are statements (they form a code block). 
+<!-- TODO: add cross-reference -->
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro, which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
-
-- Insert PSI elements, by using links like `<a href="psi_element://link.to.element">element description</a>`.
-To get such a link, right-click the class or method and select **Copy Reference**. Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a <a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.
+Immediately after the while loop ends, the condition is always false, by definition. This can be taken advantage of in the code following the loop.
